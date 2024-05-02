@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{ /*Imagen de fondo*/
+  background-color: darkorange;
+
+}
+
+
+header{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+    margin: 2%;
+    margin-left: 25%;
+
+}
+
+#trabajos{ /*Contenedor flex*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 150%;
+   
+  }
+
+
+li{ /*Elementos flex*/
+    list-style: none;
+    width: 80%;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+    padding: 8%;
+    margin: 1%;
+}
+
+
+a:link{ color:chartreuse;}
+
